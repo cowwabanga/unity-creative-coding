@@ -4,7 +4,7 @@ This is repo for creative coding course (workshop, tutorial? idk) from channel9.
 
 ## NOTES 
 
-I've had a problem when my gameObjects were black after adding a Light Probe to the scene. It appears only when I use Realtime Lighting; when I switch to Mixed Lighting and check Baked Global Illumination in Light Settings, my problem was gone off.
+I've had a problem: my gameObjects were black after adding a Light Probe to the scene. This problem appears only when I use Realtime Lighting. When I switch to Mixed Lighting and enable check for Baked Global Illumination in Light Settings, my problem was gone.
 
-But baking is slow, so it should be selected Progressive GPU (which is in preview status in 2019.3.0f6) in Lightmapping Setting -> Lightmapper.
+If baking is slow, selecting Progressive GPU (which is in preview status in 2019.3.0f6) in Lightmapping Setting -> Lightmapper should help.
 
